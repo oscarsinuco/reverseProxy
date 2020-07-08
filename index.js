@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 
-const archivo = 'file.mp3'
+const archivo = 'file'
 
 const download_file = (url) => {
     return new Promise((resolve, reject) => {
